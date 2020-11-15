@@ -1,0 +1,6 @@
+<launch>
+    <node name = "read_img" pkg = "lane_detection" type = "read_img.py">
+    </node>
+    <node name = "lane_detector" pkg = "lane_detection" type = "lane_detector.py">
+    </node>
+</launch>
